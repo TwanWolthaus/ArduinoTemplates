@@ -1,5 +1,5 @@
-# RotaryButton
-C++ template for a rotary encoder to use in the Arduino IDE. The class is called RotaryButton and implements a RotaryEncoder and a Button. AttachInterupt() functions are used to update the state of RotaryButton and can be read with getPosition() and isPressed(). More info is available in the comments.
+# ArduinoTemplates
+C++ templates for a timer and a rotary encoder to use in the Arduino IDE. The class of the encoder is called RotaryButton and implements a RotaryEncoder and a Button. AttachInterupt() functions are used to update the state of RotaryButton and can be read with getPosition() and isPressed(). More info is available in the comments.
 
 The Button is not very reliable, the RotaryEncoder is super reliable.
 
