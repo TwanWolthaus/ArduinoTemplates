@@ -3,14 +3,14 @@ C++ template for a rotary encoder to use in the Arduino IDE. The class is called
 
 The Button is not very reliable, the RotaryEncoder is super reliable.
 
-Having trouble understanding update() of RotaryEncoder? This table shows what states it goes through during a rotation:
+Having trouble understanding update() of RotaryEncoder? This table shows what states it goes through during a rotation (view in raw mode):
 
 rotating cw:
-.        start              end
+         start              end
 stateSum   |  2  1  0  1  2  |  
 direction  |  0  1  0 -1  0  |  
 
 rotating ccw:
-.        start              end
+         start              end
 stateSum   |  2  1  0  1  2  |
 direction  |  0 -1  0  1  0  |
